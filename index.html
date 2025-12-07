@@ -2,19 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        i{
-            color:red;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+     <style> 
+        header{
             background-color: black;
-            font-size: 60px;
+            color: white;
+        }
+        div{
+            display: flex;
+            background-color: green;
+            width: 700px;
+            justify-content: space-between;
+            margin-inline: 20px;
+            align-items: center;
+            padding-inline: 20px;
+            gap: 30px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            gap: 10px;
+        }
+        div{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 20px;
+            justify-content: end;
+            align-items: center;
+            background-color: red;
+        }
+        #first {
+            background-color:  yellow;
+            width: 100px;
+            padding: 10px;
+        }
+        #second {
+            background-color: aqua;
+            width: 100px;
+            padding: 10px;
+        }
+        #third {
+            background-color: blueviolet;
+            width: 100px;
+            padding: 10px;
         }
     </style>
 </head>
-<body>
-    <p>hello</p>
-    <i class="fa-solid fa-house"></i>
+<body> -->
+    <!-- navbar (logo + link + button) -->
+     <header>
+        <nav>
+            <img src="./66914a5d5cdd9676a68fa3f6_gladia-logo.svg" alt="">
+            <ul>
+                <li> product </li>
+                <li> solution </li>
+                <li> pricing </li>
+                <li> developers </li>
+                <li> resources </li>
+                <li> company </li>
+            </ul>
+           <div>
+             <button> request a demo</button>
+            <button> sing up</button>
+           </div> 
+        </nav>
+        <div>
+            <h4 id="first"> heading no 1</h4> 
+            <h4 id="second"> heading no 2</h4>
+            <h4 id="third"> heading no 3</h4>
+        </div>
+     </header>
 </body>
 </html>
